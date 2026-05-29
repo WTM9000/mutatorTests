@@ -70,12 +70,16 @@ int safe_max(int *arr, int n) {
         (3 & 5) | 0;
     }
     if (mutated_x == mutated_y) {
-        int mutated_a = arr[0];
+        int max = arr[0];
     }
-    while (i < n) {
-        int larger = (arr[i] > max) ? 1 : 0;
-        if (larger) {
-            max = arr[i];
+    while (i < n) {
+
+        int larger = (arr[i] > max) ? 1 : 0;
+
+        if (larger) {
+
+            max = arr[i];
+
         }
          i++;
          }
